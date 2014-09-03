@@ -21,6 +21,9 @@
 		7D60AB3A19B790010008636F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB1C19B790010008636F /* UIKit.framework */; };
 		7D60AB4219B790010008636F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D60AB4019B790010008636F /* InfoPlist.strings */; };
 		7D60AB4419B790010008636F /* StockKingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D60AB4319B790010008636F /* StockKingTests.m */; };
+		7D60AB5019B7933C0008636F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB4D19B7933C0008636F /* Bolts.framework */; };
+		7D60AB5119B7933C0008636F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB4E19B7933C0008636F /* Parse.framework */; };
+		7D60AB5219B7933C0008636F /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB4F19B7933C0008636F /* ParseFacebookUtils.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		7D60AB3F19B790010008636F /* StockKingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StockKingTests-Info.plist"; sourceTree = "<group>"; };
 		7D60AB4119B790010008636F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D60AB4319B790010008636F /* StockKingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockKingTests.m; sourceTree = "<group>"; };
+		7D60AB4D19B7933C0008636F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		7D60AB4E19B7933C0008636F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		7D60AB4F19B7933C0008636F /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,10 @@
 			files = (
 				7D60AB1B19B790010008636F /* CoreGraphics.framework in Frameworks */,
 				7D60AB1D19B790010008636F /* UIKit.framework in Frameworks */,
+				7D60AB5219B7933C0008636F /* ParseFacebookUtils.framework in Frameworks */,
 				7D60AB1919B790010008636F /* Foundation.framework in Frameworks */,
+				7D60AB5019B7933C0008636F /* Bolts.framework in Frameworks */,
+				7D60AB5119B7933C0008636F /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +110,9 @@
 		7D60AB1719B790010008636F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7D60AB4D19B7933C0008636F /* Bolts.framework */,
+				7D60AB4E19B7933C0008636F /* Parse.framework */,
+				7D60AB4F19B7933C0008636F /* ParseFacebookUtils.framework */,
 				7D60AB1819B790010008636F /* Foundation.framework */,
 				7D60AB1A19B790010008636F /* CoreGraphics.framework */,
 				7D60AB1C19B790010008636F /* UIKit.framework */,
@@ -377,6 +389,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StockKing/StockKing-Prefix.pch";
 				INFOPLIST_FILE = "StockKing/StockKing-Info.plist";
@@ -390,6 +406,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StockKing/StockKing-Prefix.pch";
 				INFOPLIST_FILE = "StockKing/StockKing-Info.plist";
