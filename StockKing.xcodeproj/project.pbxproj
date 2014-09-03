@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D60AB1919B790010008636F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB1819B790010008636F /* Foundation.framework */; };
+		7D60AB1B19B790010008636F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB1A19B790010008636F /* CoreGraphics.framework */; };
+		7D60AB1D19B790010008636F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB1C19B790010008636F /* UIKit.framework */; };
+		7D60AB2319B790010008636F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D60AB2119B790010008636F /* InfoPlist.strings */; };
+		7D60AB2519B790010008636F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D60AB2419B790010008636F /* main.m */; };
+		7D60AB2919B790010008636F /* SKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D60AB2819B790010008636F /* SKAppDelegate.m */; };
+		7D60AB2C19B790010008636F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D60AB2A19B790010008636F /* Main.storyboard */; };
+		7D60AB2F19B790010008636F /* SKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D60AB2E19B790010008636F /* SKViewController.m */; };
+		7D60AB3119B790010008636F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D60AB3019B790010008636F /* Images.xcassets */; };
+		7D60AB3819B790010008636F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB3719B790010008636F /* XCTest.framework */; };
+		7D60AB3919B790010008636F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB1819B790010008636F /* Foundation.framework */; };
+		7D60AB3A19B790010008636F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB1C19B790010008636F /* UIKit.framework */; };
+		7D60AB4219B790010008636F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D60AB4019B790010008636F /* InfoPlist.strings */; };
+		7D60AB4419B790010008636F /* StockKingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D60AB4319B790010008636F /* StockKingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D60AB3B19B790010008636F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D60AB0D19B790010008636F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D60AB1419B790010008636F;
+			remoteInfo = StockKing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D60AB1519B790010008636F /* StockKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D60AB1819B790010008636F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D60AB1A19B790010008636F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D60AB1C19B790010008636F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D60AB2019B790010008636F /* StockKing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StockKing-Info.plist"; sourceTree = "<group>"; };
+		7D60AB2219B790010008636F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D60AB2419B790010008636F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D60AB2619B790010008636F /* StockKing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StockKing-Prefix.pch"; sourceTree = "<group>"; };
+		7D60AB2719B790010008636F /* SKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKAppDelegate.h; sourceTree = "<group>"; };
+		7D60AB2819B790010008636F /* SKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKAppDelegate.m; sourceTree = "<group>"; };
+		7D60AB2B19B790010008636F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D60AB2D19B790010008636F /* SKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKViewController.h; sourceTree = "<group>"; };
+		7D60AB2E19B790010008636F /* SKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKViewController.m; sourceTree = "<group>"; };
+		7D60AB3019B790010008636F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7D60AB3619B790010008636F /* StockKingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockKingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D60AB3719B790010008636F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7D60AB3F19B790010008636F /* StockKingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StockKingTests-Info.plist"; sourceTree = "<group>"; };
+		7D60AB4119B790010008636F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D60AB4319B790010008636F /* StockKingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockKingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D60AB1219B790010008636F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D60AB1B19B790010008636F /* CoreGraphics.framework in Frameworks */,
+				7D60AB1D19B790010008636F /* UIKit.framework in Frameworks */,
+				7D60AB1919B790010008636F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D60AB3319B790010008636F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D60AB3819B790010008636F /* XCTest.framework in Frameworks */,
+				7D60AB3A19B790010008636F /* UIKit.framework in Frameworks */,
+				7D60AB3919B790010008636F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D60AB0C19B790010008636F = {
+			isa = PBXGroup;
+			children = (
+				7D60AB1E19B790010008636F /* StockKing */,
+				7D60AB3D19B790010008636F /* StockKingTests */,
+				7D60AB1719B790010008636F /* Frameworks */,
+				7D60AB1619B790010008636F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D60AB1619B790010008636F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D60AB1519B790010008636F /* StockKing.app */,
+				7D60AB3619B790010008636F /* StockKingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D60AB1719B790010008636F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D60AB1819B790010008636F /* Foundation.framework */,
+				7D60AB1A19B790010008636F /* CoreGraphics.framework */,
+				7D60AB1C19B790010008636F /* UIKit.framework */,
+				7D60AB3719B790010008636F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D60AB1E19B790010008636F /* StockKing */ = {
+			isa = PBXGroup;
+			children = (
+				7D60AB2719B790010008636F /* SKAppDelegate.h */,
+				7D60AB2819B790010008636F /* SKAppDelegate.m */,
+				7D60AB2A19B790010008636F /* Main.storyboard */,
+				7D60AB2D19B790010008636F /* SKViewController.h */,
+				7D60AB2E19B790010008636F /* SKViewController.m */,
+				7D60AB3019B790010008636F /* Images.xcassets */,
+				7D60AB1F19B790010008636F /* Supporting Files */,
+			);
+			path = StockKing;
+			sourceTree = "<group>";
+		};
+		7D60AB1F19B790010008636F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D60AB2019B790010008636F /* StockKing-Info.plist */,
+				7D60AB2119B790010008636F /* InfoPlist.strings */,
+				7D60AB2419B790010008636F /* main.m */,
+				7D60AB2619B790010008636F /* StockKing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D60AB3D19B790010008636F /* StockKingTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D60AB4319B790010008636F /* StockKingTests.m */,
+				7D60AB3E19B790010008636F /* Supporting Files */,
+			);
+			path = StockKingTests;
+			sourceTree = "<group>";
+		};
+		7D60AB3E19B790010008636F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D60AB3F19B790010008636F /* StockKingTests-Info.plist */,
+				7D60AB4019B790010008636F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D60AB1419B790010008636F /* StockKing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D60AB4719B790010008636F /* Build configuration list for PBXNativeTarget "StockKing" */;
+			buildPhases = (
+				7D60AB1119B790010008636F /* Sources */,
+				7D60AB1219B790010008636F /* Frameworks */,
+				7D60AB1319B790010008636F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StockKing;
+			productName = StockKing;
+			productReference = 7D60AB1519B790010008636F /* StockKing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D60AB3519B790010008636F /* StockKingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D60AB4A19B790010008636F /* Build configuration list for PBXNativeTarget "StockKingTests" */;
+			buildPhases = (
+				7D60AB3219B790010008636F /* Sources */,
+				7D60AB3319B790010008636F /* Frameworks */,
+				7D60AB3419B790010008636F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D60AB3C19B790010008636F /* PBXTargetDependency */,
+			);
+			name = StockKingTests;
+			productName = StockKingTests;
+			productReference = 7D60AB3619B790010008636F /* StockKingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D60AB0D19B790010008636F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Darkking;
+				TargetAttributes = {
+					7D60AB3519B790010008636F = {
+						TestTargetID = 7D60AB1419B790010008636F;
+					};
+				};
+			};
+			buildConfigurationList = 7D60AB1019B790010008636F /* Build configuration list for PBXProject "StockKing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D60AB0C19B790010008636F;
+			productRefGroup = 7D60AB1619B790010008636F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D60AB1419B790010008636F /* StockKing */,
+				7D60AB3519B790010008636F /* StockKingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D60AB1319B790010008636F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D60AB3119B790010008636F /* Images.xcassets in Resources */,
+				7D60AB2319B790010008636F /* InfoPlist.strings in Resources */,
+				7D60AB2C19B790010008636F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D60AB3419B790010008636F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D60AB4219B790010008636F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D60AB1119B790010008636F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D60AB2919B790010008636F /* SKAppDelegate.m in Sources */,
+				7D60AB2F19B790010008636F /* SKViewController.m in Sources */,
+				7D60AB2519B790010008636F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D60AB3219B790010008636F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D60AB4419B790010008636F /* StockKingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D60AB3C19B790010008636F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D60AB1419B790010008636F /* StockKing */;
+			targetProxy = 7D60AB3B19B790010008636F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D60AB2119B790010008636F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D60AB2219B790010008636F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D60AB2A19B790010008636F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D60AB2B19B790010008636F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D60AB4019B790010008636F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D60AB4119B790010008636F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D60AB4519B790010008636F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D60AB4619B790010008636F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D60AB4819B790010008636F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StockKing/StockKing-Prefix.pch";
+				INFOPLIST_FILE = "StockKing/StockKing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D60AB4919B790010008636F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StockKing/StockKing-Prefix.pch";
+				INFOPLIST_FILE = "StockKing/StockKing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7D60AB4B19B790010008636F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StockKing.app/StockKing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StockKing/StockKing-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StockKingTests/StockKingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7D60AB4C19B790010008636F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StockKing.app/StockKing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StockKing/StockKing-Prefix.pch";
+				INFOPLIST_FILE = "StockKingTests/StockKingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D60AB1019B790010008636F /* Build configuration list for PBXProject "StockKing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D60AB4519B790010008636F /* Debug */,
+				7D60AB4619B790010008636F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D60AB4719B790010008636F /* Build configuration list for PBXNativeTarget "StockKing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D60AB4819B790010008636F /* Debug */,
+				7D60AB4919B790010008636F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D60AB4A19B790010008636F /* Build configuration list for PBXNativeTarget "StockKingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D60AB4B19B790010008636F /* Debug */,
+				7D60AB4C19B790010008636F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D60AB0D19B790010008636F /* Project object */;
+}
