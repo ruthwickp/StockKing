@@ -24,6 +24,19 @@
 		7D60AB5019B7933C0008636F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB4D19B7933C0008636F /* Bolts.framework */; };
 		7D60AB5119B7933C0008636F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB4E19B7933C0008636F /* Parse.framework */; };
 		7D60AB5219B7933C0008636F /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB4F19B7933C0008636F /* ParseFacebookUtils.framework */; };
+		7D60AB5419B794230008636F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB5319B794230008636F /* AudioToolbox.framework */; };
+		7D60AB5619B7942F0008636F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB5519B7942F0008636F /* CFNetwork.framework */; };
+		7D60AB5819B7943D0008636F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB5719B7943D0008636F /* CoreLocation.framework */; };
+		7D60AB5A19B794460008636F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB5919B794460008636F /* libz.dylib */; };
+		7D60AB5C19B7944D0008636F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB5B19B7944C0008636F /* MobileCoreServices.framework */; };
+		7D60AB5E19B794540008636F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB5D19B794540008636F /* QuartzCore.framework */; };
+		7D60AB6019B7945A0008636F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB5F19B7945A0008636F /* Security.framework */; };
+		7D60AB6219B794630008636F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB6119B794630008636F /* StoreKit.framework */; };
+		7D60AB6419B7946B0008636F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D60AB6319B7946B0008636F /* SystemConfiguration.framework */; };
+		7DD1037119B8C48D00627012 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD1037019B8C48D00627012 /* Social.framework */; };
+		7DD1037319B8C49300627012 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD1037219B8C49300627012 /* Accounts.framework */; };
+		7DD1037919B8D18800627012 /* SKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD1037819B8D18800627012 /* SKLoginViewController.m */; };
+		7DD1037C19B8F40E00627012 /* SKSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD1037B19B8F40E00627012 /* SKSignUpViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +72,21 @@
 		7D60AB4D19B7933C0008636F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		7D60AB4E19B7933C0008636F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		7D60AB4F19B7933C0008636F /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		7D60AB5319B794230008636F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7D60AB5519B7942F0008636F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7D60AB5719B7943D0008636F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7D60AB5919B794460008636F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		7D60AB5B19B7944C0008636F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7D60AB5D19B794540008636F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7D60AB5F19B7945A0008636F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7D60AB6119B794630008636F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7D60AB6319B7946B0008636F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7DD1037019B8C48D00627012 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		7DD1037219B8C49300627012 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		7DD1037719B8D18800627012 /* SKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKLoginViewController.h; sourceTree = "<group>"; };
+		7DD1037819B8D18800627012 /* SKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKLoginViewController.m; sourceTree = "<group>"; };
+		7DD1037A19B8F40E00627012 /* SKSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSignUpViewController.h; sourceTree = "<group>"; };
+		7DD1037B19B8F40E00627012 /* SKSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSignUpViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +94,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD1037319B8C49300627012 /* Accounts.framework in Frameworks */,
+				7DD1037119B8C48D00627012 /* Social.framework in Frameworks */,
+				7D60AB6419B7946B0008636F /* SystemConfiguration.framework in Frameworks */,
+				7D60AB6219B794630008636F /* StoreKit.framework in Frameworks */,
+				7D60AB6019B7945A0008636F /* Security.framework in Frameworks */,
+				7D60AB5E19B794540008636F /* QuartzCore.framework in Frameworks */,
+				7D60AB5C19B7944D0008636F /* MobileCoreServices.framework in Frameworks */,
+				7D60AB5A19B794460008636F /* libz.dylib in Frameworks */,
+				7D60AB5819B7943D0008636F /* CoreLocation.framework in Frameworks */,
 				7D60AB1B19B790010008636F /* CoreGraphics.framework in Frameworks */,
+				7D60AB5619B7942F0008636F /* CFNetwork.framework in Frameworks */,
+				7D60AB5419B794230008636F /* AudioToolbox.framework in Frameworks */,
 				7D60AB1D19B790010008636F /* UIKit.framework in Frameworks */,
 				7D60AB5219B7933C0008636F /* ParseFacebookUtils.framework in Frameworks */,
 				7D60AB1919B790010008636F /* Foundation.framework in Frameworks */,
@@ -110,6 +149,17 @@
 		7D60AB1719B790010008636F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7DD1037219B8C49300627012 /* Accounts.framework */,
+				7DD1037019B8C48D00627012 /* Social.framework */,
+				7D60AB6319B7946B0008636F /* SystemConfiguration.framework */,
+				7D60AB6119B794630008636F /* StoreKit.framework */,
+				7D60AB5F19B7945A0008636F /* Security.framework */,
+				7D60AB5D19B794540008636F /* QuartzCore.framework */,
+				7D60AB5B19B7944C0008636F /* MobileCoreServices.framework */,
+				7D60AB5919B794460008636F /* libz.dylib */,
+				7D60AB5719B7943D0008636F /* CoreLocation.framework */,
+				7D60AB5519B7942F0008636F /* CFNetwork.framework */,
+				7D60AB5319B794230008636F /* AudioToolbox.framework */,
 				7D60AB4D19B7933C0008636F /* Bolts.framework */,
 				7D60AB4E19B7933C0008636F /* Parse.framework */,
 				7D60AB4F19B7933C0008636F /* ParseFacebookUtils.framework */,
@@ -129,6 +179,10 @@
 				7D60AB2A19B790010008636F /* Main.storyboard */,
 				7D60AB2D19B790010008636F /* SKViewController.h */,
 				7D60AB2E19B790010008636F /* SKViewController.m */,
+				7DD1037719B8D18800627012 /* SKLoginViewController.h */,
+				7DD1037819B8D18800627012 /* SKLoginViewController.m */,
+				7DD1037A19B8F40E00627012 /* SKSignUpViewController.h */,
+				7DD1037B19B8F40E00627012 /* SKSignUpViewController.m */,
 				7D60AB3019B790010008636F /* Images.xcassets */,
 				7D60AB1F19B790010008636F /* Supporting Files */,
 			);
@@ -262,7 +316,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD1037919B8D18800627012 /* SKLoginViewController.m in Sources */,
 				7D60AB2919B790010008636F /* SKAppDelegate.m in Sources */,
+				7DD1037C19B8F40E00627012 /* SKSignUpViewController.m in Sources */,
 				7D60AB2F19B790010008636F /* SKViewController.m in Sources */,
 				7D60AB2519B790010008636F /* main.m in Sources */,
 			);
@@ -477,6 +533,7 @@
 				7D60AB4919B790010008636F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D60AB4A19B790010008636F /* Build configuration list for PBXNativeTarget "StockKingTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +542,7 @@
 				7D60AB4C19B790010008636F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
